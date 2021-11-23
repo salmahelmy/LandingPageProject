@@ -2,12 +2,20 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+* [Author](#author).
+* [Description](#description).
+* [Technologies used](#technologies-used).
 
-## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+## Author
 
-To get started, open `js/app.js` and start building out the app's functionality
+Salma Ahmed Helmy Mostafa
+Professional Web Development Track Student
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+## Description
+
+It is a multi-section landing page. The navigation menu is built dynamically, when a user clicks on a navigation item, the item scrolls you to the appropriate section
+
+## Technologies used
+
+HTML, CSS and Javscript.
