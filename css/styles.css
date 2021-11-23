@@ -77,12 +77,9 @@ section {
   border-right: 1px solid #bbb;
 }
 li:last-child {
-  /*,.icon_li*/
   border-right: none !important;
 }
 .icon {
-  /*.icon_li*/
-  /*float: left;*/
   display: none !important;
 }
 li a {
@@ -92,9 +89,6 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-/*li a:hover:not(.active) {
-    background-color: #111;
-}*/
 .active {
   background-color: #04aaa4;
 }

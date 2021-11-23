@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
    */
   /**
    * on click on the nav bar list items the page scrolls to the adjacent section with toggling the active classes
-   */  
+   */
   navigationList.addEventListener("click", function (event) {
     event.preventDefault();
     const sectionNumber = event.target.textContent.split(" ");
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  /**  
+  /**
    *event listener on page scrolling to:
    * 1-Show the go to top button
    * 2-To toggle active classes between appearing sections and adjacent nav bar list items
@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         root: null,
         //rootMargin: "0px",
-        threshold: 0.6, //[0.3, 0.6]//
+        threshold: 0.6,
       }
     );
     sections.forEach(function (section) {
