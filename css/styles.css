@@ -111,16 +111,11 @@ li a {
   color: #fff;
   transition: ease 0.3s all;
 }
-navbar__menu:hover,
-.navbar__list:hover {
-  display: block !important;
-}
 @media screen and (max-width: 600px) {
   #navbar__list li {
     display: none;
-  } /*:not(:first-child)*/
+  } 
   .icon {
-    /*.icon_li*/
     color: white;
     margin: 5px;
     float: right;
